@@ -7,13 +7,14 @@ img{
 	height: 470px;
 	position: relative;
 	overflow: hidden;
-
+  
 }
 .ctboxs .ctbox{
 	width: 650px;
 	height: 470px;
 	display: flex;
 	position: absolute;
+	transition: 2s;
 }
 .ctboxs .ctbox .title{
 	font-size: 22px;
@@ -21,6 +22,7 @@ img{
 	line-height: 36px;
 	color: white;
 	cursor: pointer;
+
 }
 .ctboxs .ct1 .title{
 	background: #00007F;
@@ -36,6 +38,7 @@ img{
 }
 .ctboxs .ct1{
 	left: 0;
+	transition: 2s;
 }
 .ctboxs .ct2{
 	left: 650px;
@@ -46,5 +49,4 @@ img{
 .ctboxs .ct4{
 	left: 770px;
 }
-
 
